@@ -1,9 +1,9 @@
 (ns holling.core-test
   (:use clojure.test
-        holling.core))
+        holling.second))
 
 (def test-file "pricefile.txt")
-(def new-file "pricefile1.txt")
+(def new-file "pricefile2.txt")
 
 (deftest test-diff-file
   (testing "Is the new-file equal to the test-file"
